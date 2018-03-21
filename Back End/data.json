@@ -1,0 +1,2 @@
+{"menus":[{"id":1,"data":"House","child_ids":[3]},{"id":2,"data":"Company","child_ids":[4,5,8]},{"id":3,"data":"Living Room","parent_id":1,"child_ids":[7]},
+{"id":4,"data":"Meeting Rooms","parent_id":2,"child_ids":[]},{"id":5,"data":"Kitchen","parent_id":2,"child_ids":[6]}],"pagination":{"current_page":1,"per_page":5,"total":15}}

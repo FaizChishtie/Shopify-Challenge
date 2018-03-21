@@ -1,0 +1,90 @@
+/*
+
+Classes
+body{
+background -> Purple dark #000639
+font -> helvetica
+}
+header{
+h1 -> Bold, White(#FFFFFF), 24px
+hr -> Short, Left, Green(#7AB55C)
+h2 -> Normal, White, 16px
+}
+input{
+items -> Rounded edges, about half the page, big
+textfield -> Grey(text, #7B7B7B), 16px
+select -> Grey, dropdown button has line through left, arrow more pronounced
+p -> Red(#C23628), only appears if email is invalid, else console.log email
+button -> Purple(#5c6ac4), size of both input fields, text centered, bold white
+}
+footer{
+p -> bottom of page,
+}
+try font-size: 4vw;
+*/
+
+body{
+  background-color: #000639;
+  font-family: helvetica;
+  color: #FFFFFF;
+  margin-left: 170px;
+}
+
+.header h1{
+  font-size: 24px;
+  font-weight: 700;
+}
+.header h2{
+  font-size: 16px;
+  font-weight: 200;
+}
+.header hr{
+  margin-left: 0;
+  border: 2px solid #7AB55C;
+  width: 1.7%;
+}
+
+.input input, select{
+  color: #7B7B7B;
+  height:60px;
+  width: 340px;
+  border-radius: 5px;
+  font-size: 16px;
+  padding-left: 20px;
+  padding-right:30px;
+}
+.input select{
+  margin-left:20px;
+  line-height: 1px;
+}
+.input p{
+  font-weight: 700;
+  font-size:15px;
+  color: #C23628;
+}
+
+.input button{
+  margin-top: 10px;
+  height:60px;
+  width: 760px;
+  border-radius:5px;
+  color:#FFFFFF;
+  font-family: helvetica;
+  font-size: 16px;
+  font-weight:700;
+  background-color: #5c6ac4;
+  border-color:#5c6ac4;
+}
+
+.footer{
+    position: fixed;
+    font-size:15px;
+    font-weight:100;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+.footer a{
+  color: #FFFFFF;
+}
